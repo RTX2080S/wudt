@@ -1,0 +1,113 @@
+﻿Build started 9/5/2015 9:12:03 PM.
+     1>Project "C:\Users\goof\Documents\GitHub\wudt\IoWrapper\IoWrapper.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt dutil.cpp memutil.cpp strutil.cpp UsbIOWrapper.cpp
+         dutil.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(695): warning C4458: declaration of 'nativeCap' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(710): note: see declaration of 'Gdiplus::CustomLineCap::nativeCap'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusimageattributes.h(364): warning C4458: declaration of 'nativeImageAttr' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusimageattributes.h(378): note: see declaration of 'Gdiplus::ImageAttributes::nativeImageAttr'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusmatrix.h(296): warning C4458: declaration of 'nativeMatrix' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusmatrix.h(310): note: see declaration of 'Gdiplus::Matrix::nativeMatrix'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusbrush.h(91): warning C4458: declaration of 'nativeBrush' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusbrush.h(104): note: see declaration of 'Gdiplus::Brush::nativeBrush'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdipluspen.h(462): warning C4458: declaration of 'nativePen' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdipluspen.h(476): note: see declaration of 'Gdiplus::Pen::nativePen'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(884): warning C4458: declaration of 'nativePath' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(898): note: see declaration of 'Gdiplus::GraphicsPath::nativePath'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(1071): warning C4458: declaration of 'nativeIterator' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(1085): note: see declaration of 'Gdiplus::GraphicsPathIterator::nativeIterator'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusregion.h(506): warning C4458: declaration of 'nativeRegion' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(171): note: see declaration of 'Gdiplus::Region::nativeRegion'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusbitmap.h(536): warning C4458: declaration of 'nativeImage' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(492): note: see declaration of 'Gdiplus::Image::nativeImage'
+     1>c:\program files (x86)\windows kits\8.1\include\um\shlobj.h(2228): warning C4091: 'typedef ': ignored on left of 'tagDTI_ADTIWUI' when no variable is declared
+     1>c:\users\goof\documents\github\wudt\iowrapper\dutil.cpp(361): warning C4100: 'hrError': unreferenced formal parameter
+     1>c:\users\goof\documents\github\wudt\iowrapper\dutil.cpp(359): warning C4100: 'iLine': unreferenced formal parameter
+     1>c:\users\goof\documents\github\wudt\iowrapper\dutil.cpp(358): warning C4100: 'szFile': unreferenced formal parameter
+         memutil.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(695): warning C4458: declaration of 'nativeCap' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(710): note: see declaration of 'Gdiplus::CustomLineCap::nativeCap'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusimageattributes.h(364): warning C4458: declaration of 'nativeImageAttr' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusimageattributes.h(378): note: see declaration of 'Gdiplus::ImageAttributes::nativeImageAttr'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusmatrix.h(296): warning C4458: declaration of 'nativeMatrix' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusmatrix.h(310): note: see declaration of 'Gdiplus::Matrix::nativeMatrix'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusbrush.h(91): warning C4458: declaration of 'nativeBrush' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusbrush.h(104): note: see declaration of 'Gdiplus::Brush::nativeBrush'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdipluspen.h(462): warning C4458: declaration of 'nativePen' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdipluspen.h(476): note: see declaration of 'Gdiplus::Pen::nativePen'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(884): warning C4458: declaration of 'nativePath' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(898): note: see declaration of 'Gdiplus::GraphicsPath::nativePath'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(1071): warning C4458: declaration of 'nativeIterator' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(1085): note: see declaration of 'Gdiplus::GraphicsPathIterator::nativeIterator'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusregion.h(506): warning C4458: declaration of 'nativeRegion' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(171): note: see declaration of 'Gdiplus::Region::nativeRegion'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusbitmap.h(536): warning C4458: declaration of 'nativeImage' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(492): note: see declaration of 'Gdiplus::Image::nativeImage'
+     1>c:\program files (x86)\windows kits\8.1\include\um\shlobj.h(2228): warning C4091: 'typedef ': ignored on left of 'tagDTI_ADTIWUI' when no variable is declared
+         strutil.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(695): warning C4458: declaration of 'nativeCap' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(710): note: see declaration of 'Gdiplus::CustomLineCap::nativeCap'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusimageattributes.h(364): warning C4458: declaration of 'nativeImageAttr' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusimageattributes.h(378): note: see declaration of 'Gdiplus::ImageAttributes::nativeImageAttr'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusmatrix.h(296): warning C4458: declaration of 'nativeMatrix' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusmatrix.h(310): note: see declaration of 'Gdiplus::Matrix::nativeMatrix'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusbrush.h(91): warning C4458: declaration of 'nativeBrush' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusbrush.h(104): note: see declaration of 'Gdiplus::Brush::nativeBrush'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdipluspen.h(462): warning C4458: declaration of 'nativePen' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdipluspen.h(476): note: see declaration of 'Gdiplus::Pen::nativePen'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(884): warning C4458: declaration of 'nativePath' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(898): note: see declaration of 'Gdiplus::GraphicsPath::nativePath'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(1071): warning C4458: declaration of 'nativeIterator' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(1085): note: see declaration of 'Gdiplus::GraphicsPathIterator::nativeIterator'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusregion.h(506): warning C4458: declaration of 'nativeRegion' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(171): note: see declaration of 'Gdiplus::Region::nativeRegion'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusbitmap.h(536): warning C4458: declaration of 'nativeImage' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(492): note: see declaration of 'Gdiplus::Image::nativeImage'
+     1>c:\program files (x86)\windows kits\8.1\include\um\shlobj.h(2228): warning C4091: 'typedef ': ignored on left of 'tagDTI_ADTIWUI' when no variable is declared
+         UsbIOWrapper.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(695): warning C4458: declaration of 'nativeCap' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(710): note: see declaration of 'Gdiplus::CustomLineCap::nativeCap'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusimageattributes.h(364): warning C4458: declaration of 'nativeImageAttr' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusimageattributes.h(378): note: see declaration of 'Gdiplus::ImageAttributes::nativeImageAttr'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusmatrix.h(296): warning C4458: declaration of 'nativeMatrix' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusmatrix.h(310): note: see declaration of 'Gdiplus::Matrix::nativeMatrix'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusbrush.h(91): warning C4458: declaration of 'nativeBrush' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusbrush.h(104): note: see declaration of 'Gdiplus::Brush::nativeBrush'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdipluspen.h(462): warning C4458: declaration of 'nativePen' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdipluspen.h(476): note: see declaration of 'Gdiplus::Pen::nativePen'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(884): warning C4458: declaration of 'nativePath' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(898): note: see declaration of 'Gdiplus::GraphicsPath::nativePath'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(1071): warning C4458: declaration of 'nativeIterator' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdipluspath.h(1085): note: see declaration of 'Gdiplus::GraphicsPathIterator::nativeIterator'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusregion.h(506): warning C4458: declaration of 'nativeRegion' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(171): note: see declaration of 'Gdiplus::Region::nativeRegion'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gdiplusbitmap.h(536): warning C4458: declaration of 'nativeImage' hides class member
+         c:\program files (x86)\windows kits\8.1\include\um\gdiplusheaders.h(492): note: see declaration of 'Gdiplus::Image::nativeImage'
+     1>c:\program files (x86)\windows kits\8.1\include\um\shlobj.h(2228): warning C4091: 'typedef ': ignored on left of 'tagDTI_ADTIWUI' when no variable is declared
+     1>c:\users\goof\documents\github\wudt\iowrapper\usbiowrapper.cpp(106): warning C4996: 'GetVersionExW': was declared deprecated
+         c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442): note: see declaration of 'GetVersionExW'
+     1>c:\users\goof\documents\github\wudt\iowrapper\usbiowrapper.cpp(263): warning C4456: declaration of 'error' hides previous local declaration
+         c:\users\goof\documents\github\wudt\iowrapper\usbiowrapper.cpp(202): note: see declaration of 'error'
+     1>c:\users\goof\documents\github\wudt\iowrapper\usbiowrapper.cpp(275): warning C4456: declaration of 'error' hides previous local declaration
+         c:\users\goof\documents\github\wudt\iowrapper\usbiowrapper.cpp(202): note: see declaration of 'error'
+     1>c:\users\goof\documents\github\wudt\iowrapper\usbiowrapper.cpp(284): warning C4456: declaration of 'error' hides previous local declaration
+         c:\users\goof\documents\github\wudt\iowrapper\usbiowrapper.cpp(202): note: see declaration of 'error'
+         Generating Code...
+     1>c:\users\goof\documents\github\wudt\iowrapper\usbiowrapper.cpp(326): warning C4701: potentially uninitialized local variable 'hStdOutProcess' used
+     1>c:\users\goof\documents\github\wudt\iowrapper\usbiowrapper.cpp(326): warning C4703: potentially uninitialized local pointer variable 'hStdOutProcess' used
+     1>c:\users\goof\documents\github\wudt\iowrapper\usbiowrapper.cpp(336): warning C4701: potentially uninitialized local variable 'hStdErrProcess' used
+     1>c:\users\goof\documents\github\wudt\iowrapper\usbiowrapper.cpp(336): warning C4703: potentially uninitialized local pointer variable 'hStdErrProcess' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\goof\Documents\GitHub\wudt\Debug\IoWrapper.dll" /INCREMENTAL /NOLOGO /MANIFEST:NO /Debug /PDB:"C:\Users\goof\Documents\GitHub\wudt\Debug\IoWrapper.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\goof\Documents\GitHub\wudt\Debug\IoWrapper.lib" /MACHINE:X86 /SAFESEH /DLL Debug\dutil.obj
+         Debug\memutil.obj
+         Debug\strutil.obj
+         Debug\UsbIOWrapper.obj
+     1>dutil.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library C:\Users\goof\Documents\GitHub\wudt\Debug\IoWrapper.lib and object C:\Users\goof\Documents\GitHub\wudt\Debug\IoWrapper.exp
+         IoWrapper.vcxproj -> C:\Users\goof\Documents\GitHub\wudt\Debug\IoWrapper.dll
+     1>Done Building Project "C:\Users\goof\Documents\GitHub\wudt\IoWrapper\IoWrapper.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:29.76
