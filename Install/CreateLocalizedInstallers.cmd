@@ -16,3 +16,4 @@ msbuild /property:Configuration=%config%;Culture=ko-KR;Codepage=1252 /target:Cle
 msbuild /property:Configuration=%config%;Culture=nl-NL;Codepage=1252 /target:Clean;Build
 
 ECHO on
+pause
